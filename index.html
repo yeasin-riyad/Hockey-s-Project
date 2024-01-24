@@ -833,7 +833,8 @@
         <section class="container mx-auto">
 
             <div class=" md:flex gap-8  sm:mx-auto">
-                <div class=" bg-gray-50  shadow-2xl border-[1px] border-solid border-gray  rounded-2xl my-8  md:w-4/12 p-10">
+                <div
+                    class=" bg-gray-50  shadow-2xl border-[1px] border-solid border-gray  rounded-2xl my-8  md:w-4/12 p-10">
 
                     <div class="bg-lime-50 p-8 rounded-2xl">
 
@@ -859,39 +860,43 @@
 
                 </div>
 
-                <div class="my-8 lg:grid grid-cols-2 flex-1">
-                    <div>
+                <div class=" my-8 lg:grid grid-cols-2 flex-1 gap-6">
+                    <div class="">
                         <h1 class="text-gray-900 text-xl font-bold mb-5">Your Name:</h1>
 
                         <input type="text" name="" id="" placeholder="Enter your full name "
-                            class="bg-neutral-50 outline-none py-5 px-8 rounded-xl">
+                            class="bg-neutral-50 outline-none py-5 px-8 rounded-xl w-full mb-5">
                     </div>
 
-                    <div>
+                    <div class="">
                         <h1 class="text-gray-900 text-xl font-bold mb-5">Your Email:</h1>
 
                         <input type="email" name="" id="" placeholder="Enter your email "
-                            class="bg-neutral-50 outline-none py-5 px-8 rounded-xl">
+                            class="bg-neutral-50 outline-none py-5 px-8 rounded-xl w-full mb-5">
                     </div>
 
-                    <div>
+                    <div class="">
                         <h1 class="text-gray-900 text-xl font-bold mb-5">Subject:</h1>
 
                         <input type="text" name="" id="" placeholder="Enter your Subject "
-                            class="bg-neutral-50 outline-none py-5 px-8 rounded-xl">
+                            class="bg-neutral-50 outline-none py-5 px-8 rounded-xl w-full mb-5">
                     </div>
 
-                    <div>
+                    <div class="">
                         <h1 class="text-gray-900 text-xl font-bold mb-5">Phone Number:</h1>
 
-                        <input type="number" name="" id="" placeholder="Enter your phone number "
-                            class="bg-neutral-50 outline-none py-5 px-8 rounded-xl">
+                        <input type="tel" name="" id="" placeholder="Enter your phone number "
+                            class="bg-neutral-50 outline-none py-5 px-8 rounded-xl w-full mb-5">
                     </div>
 
                     <div class="col-span-2">
                         <h1 class="text-gray-900 text-xl font-bold mb-5">Message</h1>
-                        <textarea name="" id=""  rows="10" placeholder="Write your Message"  class="bg-neutral-50 outline-none py-5 px-8 rounded-xl w-full" ></textarea>
+                        <textarea name="" id="" rows="10" placeholder="Write your Message"
+                            class="bg-neutral-50 outline-none py-5 px-8 rounded-xl w-full"></textarea>
                     </div>
+
+                    <button class="col-span-2 bg-red-500 rounded-2xl text-gray-50 p-4 text-xl font-bold w-full">Send
+                        Message</button>
 
                 </div>
             </div>
@@ -899,17 +904,75 @@
         </section>
 
 
+        <!-- Social Media Section -->
+
+        <section
+            class="container mx-auto text-center bg-neutral-50 p-10 border-[1px] border-solid border-neutral-300 my-10 shadow-2xl rounded-2xl text-neutral-900 text-2xl font-extrabold">
+            <h1 class="mb-6">Social Media</h1>
+            <div class="flex gap-4 justify-center items-center">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
 
 
-
-
-
-
-
+        </section>
 
     </main>
 
-    <footer>
+    <footer class="container mx-auto bg-neutral-900 text-gray-400 list-none p-12 ">
+
+        <div class="mx-auto md:flex  justify-end items-center flex-1 gap-48">
+            <!-- Footer Section Get in Touch -->
+            <div class="mx-auto flex flex-col gap-5">
+                <h1 class="text-white text-3xl  font-extrabold">Get In Touch</h1>
+                <p class="">Whether yor are at home or in the wild we are here for you. <br>There is a good chance you can
+                    contact with us.</p>
+                <div class="flex gap-2 items-center">
+                    <i class="fa-regular fa-envelope text-red-500"></i>
+                    <p>hockeys@support.com</p>
+                </div>
+                <div class="flex gap-2 items-center">
+                    <i class="fa-solid fa-phone text-red-500"></i>
+                    <p>(+62) 123-321-543</p>
+                </div>
+
+            </div>
+
+            <div class="flex justify-center items-start gap-48 flex-1 my-8 mx-auto">
+                <div class="flex flex-col justify-center items-start gap-3 mx-auto ">
+                    <h1 class="text-white text-xl font-bold">Company</h1>
+                    <li>About Us</li>
+                    <li>Leadership</li>
+                    <li>Careers</li>
+                    <li>News & Article</li>
+                    <li>Legal Notice</li>
+                </div>
+
+                <div class="flex flex-col justify-start items-start gap-3 flex-1 mx-auto">
+                    <h1 class="text-white text-xl font-bold" >Support</h1>
+                    <li>Help Center</li>
+                    <li>FAQ</li>
+                    <li>Ticket Support</li>
+                    <li>Contact Us</li>
+
+                </div>
+            </div>
+
+
+            <div class="flex flex-col justify-start items-start gap-3 flex-1 ">
+                <h1 class="text-white text-xl font-bold">Services</h1>
+                <li>Academy</li>
+                <li>Group Lesson</li>
+                <li>Private Lesson</li>
+                <li>Hockeys for Kids</li>
+                <li>Hockeys for Adult</li>
+            </div>
+
+
+        </div>
+
 
     </footer>
 
